@@ -76,7 +76,7 @@ console.log('server started '+ port);
 * Наслаждаемся результатом, ссылка на ваше приложение есть на странице с вашим приложением на хероку или <YOUR-PROJECT-NAME>.herokuapp.com
 
 ## Ссылки 
-[Мой репозиторий залитый на хероку]( https://github.com/alex1998dmit/scheldure-os-emulator)
-[Статья с похожей тематикой: ](https://github.com/alex1998dmit/scheldure-os-emulator)
-[Видео](https://www.youtube.com/watch?v=UftutR5hz3U)
+* [Мой репозиторий залитый на хероку]( https://github.com/alex1998dmit/scheldure-os-emulator)
+* [Статья с похожей тематикой: ](https://github.com/alex1998dmit/scheldure-os-emulator)
+* [Видео](https://www.youtube.com/watch?v=UftutR5hz3U)
 
