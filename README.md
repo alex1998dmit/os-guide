@@ -48,11 +48,10 @@ app.listen(port);
 console.log('server started '+ port);
 ```
 * Важно, так как мы работаем с вебпаком для деплоя необходимо собирать проект перед заливом на сервер, иначе изменения не вступят в силу.
-* Сборка проекта
+* Сборка проекта:
 ```$ npm run build```
 * Чтобы heroku запускал наше приложение нужно указать ему это. Для этого в файле ```package.json``` добавляем след строку:
-// package.json
-{
+```
   "name": "<YOUR-PROJECT-NAME-HERE>",
   "version": "1.0.0",
   "description": "A Vue.js project",
@@ -62,7 +61,7 @@ console.log('server started '+ port);
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
     "start": "node server.js",   <--- Вот эта
-...
+```
 * Теперь при запуске приложения нода на хероку будет запускать файл ``` server.js```
 * Необходимо связать хероку-приложение и наш репозиторий, прописываем следующее:
 ```heroku git:remote --app <YOUR-PROJECT-NAME-HERE>```
