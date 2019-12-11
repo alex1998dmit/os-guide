@@ -64,14 +64,14 @@ console.log('server started '+ port);
 ```
 * Теперь при запуске приложения нода на хероку будет запускать файл ``` server.js```
 * Необходимо связать хероку-приложение и наш репозиторий, прописываем следующее:
-```heroku git:remote --app <YOUR-PROJECT-NAME-HERE>```
+```$ heroku git:remote --app <YOUR-PROJECT-NAME-HERE>```
 * Это нужно для автоматизации наката изменений на хероку, теперь вся работу сводится к комитом, пушу на репозиторий и пушу на хероку
 * Рекомендуется занести папку dist в ```.gitignore```
 * Рекомендуется, в приложении задаем переменные окружения (можно на сайте, можно на клиенте [пример ниже на клиенте])
-``` heroku config:set NODE_ENV=production --app <YOUR-PROJECT-NAME-HERE> ```
+```$ heroku config:set NODE_ENV=production --app <YOUR-PROJECT-NAME-HERE> ```
 * Добавляем коммиты
 * Пушим на хероку и в гитхаб
-```git push heroku master```
+```$ git push heroku master```
 * Наслаждаемся результатом, ссылка на ваше приложение есть на странице с вашим приложением на хероку или <YOUR-PROJECT-NAME>.herokuapp.com
 
 ## Ссылки 
